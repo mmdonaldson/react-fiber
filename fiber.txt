@@ -1,0 +1,12 @@
+NOTES
+- react 16
+- is fiber ready yet
+- react has always been a push rather than pull (declarative) but hasn't taken real advantage of it
+- the ability to prioritise updates
+- the ability to pause an update if something higher priority is waiting
+- multiple elements can be returned
+- target multiple dom nodes declaratively rather than imperatively
+- error boundaries - there will be a specific lifecycle hook for handling errors on a component
+- not so much about performance, fiber is about being responsive in the UI
+- single data structure called fiber which describes the work, while loop, little-no recursion, not many language performance features. keeping like c, really simple
+- ability to build a custom renderer, currently have to fork a few things and it gets messy
